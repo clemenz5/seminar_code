@@ -8,3 +8,5 @@ This code is designed to demonstrate a REST API four our presentation on REST AP
 - ``cd frontend``
 - ``npm i``
 - ``npm run start``
+
+curl -d '{"didUseREST":true, "didUseRPC":false, "didUseSOAP":false}' -H "Content-Type: application/json" -X POST https://lorenz.nat.selfnet.de/rest/pollSub
