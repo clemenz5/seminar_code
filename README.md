@@ -10,5 +10,6 @@ This code is designed to demonstrate a REST API four our presentation on REST AP
 - ``npm run start``
 
 curl -d '{"didUseREST":true, "didUseRPC":false, "didUseSOAP":false}' -H "Content-Type: application/json" -X POST https://lorenz.nat.selfnet.de/rest/pollSub
+
 Invoke-WebRequest -Uri https://lorenz.nat.selfnet.de/rest/pollSub -Method POST -Body '{"didUseREST":true, "didUseRPC":false, "didUseSOAP":false}' -ContentType "application/json"
 
